@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $('#darkmode-toggle').click(function(){
+        $('#my-nav-change').toggleClass("navbar-dark");
+        $('#my-nav-change').toggleClass("bg-dark");
+        $('.cool-link').toggleClass("cool-link-dark");
+        $('#full-body-dark').toggleClass("bg-dark");
+        $('#hero-main-text').toggleClass("text-white");
+        $('#hero-paragraph-text').toggleClass("text-white");
+        $('#card-heading-text').toggleClass("text-white");
+        $('#icon-grid').toggleClass("text-white");
+        $('#icon-grid-1').toggleClass("text-white");
+        $('#features-1').toggleClass("features-svg-icon-darkmode");
+        $('#features-2').toggleClass("features-svg-icon-darkmode");
+        $('#features-3').toggleClass("features-svg-icon-darkmode");
+        $('#features-4').toggleClass("features-svg-icon-darkmode");
+        $('.my-reco-text').toggleClass("my-reco-text-dark");
+        $('.my-reco-by-text').toggleClass("my-reco-by-text-dark");
+        $('.my-reco-heading').toggleClass("my-reco-heading-dark");
+        $('#my-projects-count').toggleClass("text-white");
+        $('#my-footer-text').toggleClass("text-white");
+    })
+})
